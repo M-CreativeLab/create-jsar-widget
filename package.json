@@ -1,8 +1,10 @@
 {
   "name": "@yodaos-jsar/create-widget",
-  "version": "0.1.0",
+  "version": "0.1.5",
+  "type": "module",
   "description": "Set up a JSAR widget for newbie",
-  "main": "index.js",
+  "main": "index.mjs",
+  "bin": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/M-CreativeLab/create-jsar-widget/issues"
   },
-  "homepage": "https://github.com/M-CreativeLab/create-jsar-widget#readme"
+  "homepage": "https://github.com/M-CreativeLab/create-jsar-widget#readme",
+  "dependencies": {
+    "opta": "^1.0.0",
+    "unzipper": "^0.10.14"
+  },
+  "devDependencies": {
+    "@types/unzipper": "^0.10.7"
+  }
 }
