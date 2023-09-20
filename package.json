@@ -1,6 +1,6 @@
 {
   "name": "@yodaos-jsar/create-widget",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "module",
   "description": "Set up a JSAR widget for newbie",
   "main": "index.mjs",
